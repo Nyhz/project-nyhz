@@ -1,1 +1,11 @@
-export const NAVBAR_ITEMS = ["HOME", "ABOUT", "CONTACT"];
+export const NAVBAR_ITEMS = [
+  {
+    text: ".home()",
+  },
+  {
+    text: ".about()",
+  },
+  {
+    text: ".contact()",
+  },
+];

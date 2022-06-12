@@ -28,7 +28,7 @@ export const GlobalStyles: FC<TGlobalStylesProps> = ({ children }) => {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: ${colorMode === "light" ? "" : "#171717"};
+            background: ${colorMode === "light" ? "#FFFFFF" : "#171717"};
           }
         `}
       />
